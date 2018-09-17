@@ -1,7 +1,3 @@
-function foo() {
-        var y = Math.atan2(a/b); // MISMATCHED_COUNT_OF_ARGS alarm
-}
-
 function aaaa() {
     var pChangeMessageList = {};
     var param = typeof pChangeMessageList == "Array" ? pChangeMessageList.join('|') : pChangeMessageList;
