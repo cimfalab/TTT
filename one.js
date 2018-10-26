@@ -1,4 +1,5 @@
 var abc;
 
 
-var dgfg;
+var dgfg = null;
+dgfg.a.b;
