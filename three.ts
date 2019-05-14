@@ -1,2 +1,2 @@
 export const TTT = {
-} as const;
+} as const; // deepscan-disable-line
