@@ -1,8 +1,13 @@
-// Example 1
-import React from 'react';
+import PropTypes from 'prop-types';
 
-class Hello extends React.Component {
-    render() {
-        return <textarea></textarea>; // REACT_DEPRECATED_DOM_ELEMENT_PROP alarm because child node is set on 'textarea' element.
-    }
+class Greeting extends React.Component {
+  render() {
+    return (
+      <h1>Hello, {this.props.name}</h1>
+    );
+  }
 }
+
+Greeting.propTypes = {
+  name: PropTypes.string
+};
