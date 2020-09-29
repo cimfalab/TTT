@@ -9,6 +9,9 @@ module.exports = {
         "ecmaVersion": 9
     },
     "rules": {
+        "curly": [
+            "error"
+        ],
         "no-console": [
             "off"
         ],
