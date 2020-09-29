@@ -1,6 +1,6 @@
 function foo(data) {
     if (data)
-        console.log('DUP', element)
+        console.log('DUP')
      else
        console.log(data)
 }
